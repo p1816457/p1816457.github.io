@@ -4,7 +4,7 @@ html {
 
 *{box-sizing: border-box;}
 
-header, body, article, footer{
+header{
 	min-width:1280px;
 	height:100%;
 	margin:0px;
@@ -46,6 +46,7 @@ header, body, article, footer{
 body{	
 	font-family: arial, sans-serif;
 	height: auto;
+	width: 1280px;
 }
 /* navigation bar
  background image */
@@ -81,7 +82,7 @@ body{
 	padding-bottom: 10px;
     padding-right: 40px;
     padding-left: 10px;
-	
+	padding-top:5px;
 }
 
 
@@ -95,7 +96,7 @@ body{
 	border-radius:10px;
 	background: orange;
 	transition:all 0.45s;
-	padding-top: 10px;
+	
 }
 
 /* product listing hover must refer to product page style*/
@@ -118,14 +119,20 @@ article a {
 }
 
 footer{
-	
+	min-width:1280px;
+	height:100%;
+	margin:0px;
+	padding:0px;
 	clear: both;
 	
 }
 
 article {
-float:left;
-width: 100%;
+	float:left;
+	min-width:1280px;
+	height:100%;
+	margin:0px;
+	padding:0px;
 }
 
 .contact_us{
@@ -321,7 +328,7 @@ body {
  position: absolute;
     left: 0;
     bottom: 0;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     padding: 0.2em 0em;
     margin-left: 9px;
     font-weight: 400;
@@ -332,7 +339,7 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
     margin-right: 9px;
     padding: 0.2em 0.5em;
     border: 2px solid #000000;
@@ -424,12 +431,13 @@ body {
 	
 .nae{
 	float: left;
+	width:100%;
 }
 
 .background{
 	padding-top: 20px;
 	padding-bottom:20px;
-	
+	width:
 }
 
 .manager img{
@@ -438,6 +446,9 @@ body {
 	float:left;
 }
 
+.quack{
+	clear: both;
+}
 .same {
 	padding-left: 20px;
 	padding-top:25px;
